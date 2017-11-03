@@ -3,7 +3,7 @@ package util
 import (
 	"syscall"
 
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // Filesystem magic numbers

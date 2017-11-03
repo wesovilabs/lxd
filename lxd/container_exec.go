@@ -16,10 +16,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/version"
 
 	log "gopkg.in/inconshreveable/log15.v2"
 )

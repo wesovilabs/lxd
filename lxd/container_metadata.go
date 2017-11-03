@@ -14,8 +14,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 func containerMetadataGet(d *Daemon, r *http.Request) Response {

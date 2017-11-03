@@ -3,7 +3,7 @@ package types
 import (
 	"sort"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 type Device map[string]string

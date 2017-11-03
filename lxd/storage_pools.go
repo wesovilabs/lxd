@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/lxd/util"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/util"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/version"
 )
 
 // /1.0/storage-pools

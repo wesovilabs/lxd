@@ -15,7 +15,7 @@ matrix:
 
 install:
   - "mkdir -p $GOPATH/github.com/lxc"
-  - "rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/lxc/lxd/"
+  - "rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/wesovilabs/lxd/"
 
 script:
   - "make client"

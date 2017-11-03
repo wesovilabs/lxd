@@ -18,7 +18,8 @@ sudo apt-get -y install lxc lxc-dev mercurial git pkg-config \
 
 
 go get github.com/lxc/lxd
-cd $GOPATH/src/github.com/lxc/lxd
+pwd
+cd $GOPATH/src/github.com/wesovilabs/lxd
 go get -v -d ./...
 make
 

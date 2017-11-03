@@ -12,14 +12,14 @@ import (
 
 	"gopkg.in/lxc/go-lxc.v2"
 
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/lxd/state"
-	"github.com/lxc/lxd/lxd/sys"
-	"github.com/lxc/lxd/lxd/types"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/idmap"
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/state"
+	"github.com/wesovilabs/lxd/lxd/sys"
+	"github.com/wesovilabs/lxd/lxd/types"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/osarch"
 )
 
 // Helper functions

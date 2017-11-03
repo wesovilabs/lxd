@@ -8,7 +8,7 @@ import (
 
 	"gopkg.in/lxc/go-lxc.v2"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 /*

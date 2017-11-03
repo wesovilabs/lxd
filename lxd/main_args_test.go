@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lxc/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/cmd"
 )
 
 // Check the default values of all command line arguments.

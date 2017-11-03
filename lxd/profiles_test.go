@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	dbapi "github.com/lxc/lxd/lxd/db"
+	dbapi "github.com/wesovilabs/lxd/lxd/db"
 )
 
 func Test_removing_a_profile_deletes_associated_configuration_entries(t *testing.T) {

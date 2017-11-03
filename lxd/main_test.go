@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/lxc/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/db"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/idmap"
 )
 
 func mockStartDaemon() (*Daemon, error) {

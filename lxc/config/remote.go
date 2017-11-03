@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 // Remote holds details for communication with a remote daemon

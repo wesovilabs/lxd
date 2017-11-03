@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/simplestreams"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/simplestreams"
 	"gopkg.in/macaroon-bakery.v2/httpbakery"
 )
 

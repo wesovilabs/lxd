@@ -11,12 +11,12 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/pborman/uuid"
 
-	"github.com/lxc/lxd/lxd/util"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/cancel"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/lxd/util"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/cancel"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/version"
 )
 
 var operationsLock sync.Mutex

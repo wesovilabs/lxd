@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/lxd-benchmark/benchmark"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/gnuflag"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/lxd-benchmark/benchmark"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/gnuflag"
+	"github.com/wesovilabs/lxd/shared/version"
 )
 
 var argCount = gnuflag.Int("count", 100, "Number of containers to create")

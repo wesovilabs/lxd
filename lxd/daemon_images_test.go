@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/shared/api"
 	"github.com/stretchr/testify/suite"
 )
 

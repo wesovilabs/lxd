@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 func ExpireLogs(dbObj *sql.DB) error {

@@ -1,6 +1,6 @@
 // Package migration provides the primitives for migration in LXD.
 //
-// See https://github.com/lxc/lxd/blob/master/specs/migration.md for a complete
+// See https://github.com/wesovilabs/lxd/blob/master/specs/migration.md for a complete
 // description.
 
 package main
@@ -22,10 +22,10 @@ import (
 	"github.com/gorilla/websocket"
 	"gopkg.in/lxc/go-lxc.v2"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/idmap"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 type migrationFields struct {

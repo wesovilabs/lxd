@@ -13,11 +13,11 @@ import (
 	"github.com/gorilla/mux"
 	"gopkg.in/yaml.v2"
 
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/osarch"
 
 	log "gopkg.in/inconshreveable/log15.v2"
 )

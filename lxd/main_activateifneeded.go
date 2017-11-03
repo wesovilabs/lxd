@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/idmap"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 func cmdActivateIfNeeded(args *Args) error {

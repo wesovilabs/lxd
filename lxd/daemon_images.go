@@ -14,15 +14,15 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/lxd/util"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/cancel"
-	"github.com/lxc/lxd/shared/ioprogress"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/util"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/cancel"
+	"github.com/wesovilabs/lxd/shared/ioprogress"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/version"
 
 	log "gopkg.in/inconshreveable/log15.v2"
 )

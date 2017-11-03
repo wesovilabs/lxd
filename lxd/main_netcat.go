@@ -8,7 +8,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 // Netcat is called with:

@@ -8,7 +8,7 @@ package main
 import (
 	"log"
 
-	"github.com/lxc/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/db"
 )
 
 // Entry point for the "schema" development utility, which updates the content

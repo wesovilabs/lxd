@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lxc/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/idmap"
 )
 
 func help(me string, status int) {

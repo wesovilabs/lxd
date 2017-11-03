@@ -3,7 +3,7 @@
 package osarch
 
 import (
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 // ArchitectureGetLocal returns the local hardware architecture

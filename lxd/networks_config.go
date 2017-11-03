@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 var networkConfigKeys = map[string]func(value string) error{

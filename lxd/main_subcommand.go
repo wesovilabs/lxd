@@ -5,11 +5,11 @@ import (
 
 	log "gopkg.in/inconshreveable/log15.v2"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/cmd"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/logging"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logging"
+	"github.com/wesovilabs/lxd/shared/version"
 )
 
 // SubCommand is function that performs the logic of a specific LXD sub-command.

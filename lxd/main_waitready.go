@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lxc/lxd/client"
+	"github.com/wesovilabs/lxd/client"
 )
 
 func cmdWaitReady(args *Args) error {

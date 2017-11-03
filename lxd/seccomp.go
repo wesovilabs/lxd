@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/osarch"
 )
 
 const SECCOMP_HEADER = `2

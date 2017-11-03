@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // zfsIsEnabled returns whether zfs backend is supported.

@@ -3,10 +3,10 @@ package sys
 import (
 	log "gopkg.in/inconshreveable/log15.v2"
 
-	"github.com/lxc/lxd/lxd/util"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/idmap"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/lxd/util"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // OS is a high-level facade for accessing all operating-system

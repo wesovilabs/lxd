@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/i18n"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/i18n"
 )
 
 // Lists

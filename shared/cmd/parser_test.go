@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lxc/lxd/shared/cmd"
-	"github.com/lxc/lxd/shared/subtest"
+	"github.com/wesovilabs/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/subtest"
 )
 
 // Sample command line arguments specification.

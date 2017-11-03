@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 func cmdDaemon(args *Args) error {

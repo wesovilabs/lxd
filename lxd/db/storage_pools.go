@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 // Get all storage pools.

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 func cmdMigrateDumpSuccess(args *Args) error {

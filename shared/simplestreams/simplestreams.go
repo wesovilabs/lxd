@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/ioprogress"
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/ioprogress"
+	"github.com/wesovilabs/lxd/shared/osarch"
 )
 
 type ssSortImage []api.Image

@@ -13,7 +13,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 func RFC3493Dialer(network, address string) (net.Conn, error) {

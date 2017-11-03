@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lxc/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/cmd"
 	"github.com/stretchr/testify/assert"
 )
 

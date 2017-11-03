@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/lxc/lxd/shared/gnuflag"
+	"github.com/wesovilabs/lxd/shared/gnuflag"
 )
 
 // Parser for command line arguments.

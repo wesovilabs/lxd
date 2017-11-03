@@ -6,7 +6,7 @@ import (
 	"runtime/pprof"
 	"syscall"
 
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 func doMemDump(memProfile string) {

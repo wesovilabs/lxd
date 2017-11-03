@@ -6,8 +6,8 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/lxc/lxd/lxd/types"
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/lxd/types"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 // Profiles returns a string list of profiles.

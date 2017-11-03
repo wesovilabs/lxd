@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lxc/lxd/shared/cmd"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/version"
 )
 
 // If the help flag is set in the command line, the usage message is printed

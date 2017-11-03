@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/lxc/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/shared/idmap"
 )
 
 func idmapsetFromString(idmapString string) (*idmap.IdmapSet, error) {

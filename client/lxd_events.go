@@ -3,7 +3,7 @@ package lxd
 import (
 	"encoding/json"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 // Event handling functions

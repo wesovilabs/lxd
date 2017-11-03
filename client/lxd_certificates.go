@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 // Certificate handling functions

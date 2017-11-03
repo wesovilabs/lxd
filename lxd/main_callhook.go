@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/lxc/lxd/client"
+	"github.com/wesovilabs/lxd/client"
 )
 
 func cmdCallHook(args *Args) error {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lxc/lxd/client"
+	"github.com/wesovilabs/lxd/client"
 )
 
 func cmdReady(args *Args) error {

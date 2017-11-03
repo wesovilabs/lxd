@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 func networkIptablesPrepend(protocol string, netName string, table string, chain string, rule ...string) error {

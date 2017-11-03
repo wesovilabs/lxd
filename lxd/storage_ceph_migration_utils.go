@@ -7,8 +7,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // Let's say we want to send the a container "a" including snapshots "snap0" and

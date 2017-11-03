@@ -12,8 +12,8 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/pborman/uuid"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // rsyncCopy copies a directory using rsync (with the --devices option).

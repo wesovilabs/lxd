@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/lxc/lxd/client"
+	"github.com/wesovilabs/lxd/client"
 )
 
 func cmdImport(args *Args) error {

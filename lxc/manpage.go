@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/lxc/lxd/lxc/config"
-	"github.com/lxc/lxd/shared/i18n"
+	"github.com/wesovilabs/lxd/lxc/config"
+	"github.com/wesovilabs/lxd/shared/i18n"
 )
 
 type manpageCmd struct{}

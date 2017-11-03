@@ -8,7 +8,7 @@ import (
 	log "gopkg.in/inconshreveable/log15.v2"
 	"gopkg.in/inconshreveable/log15.v2/term"
 
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // GetLogger returns a logger suitable for using as logger.Log.

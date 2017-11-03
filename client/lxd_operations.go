@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 // GetOperation returns an Operation entry for the provided uuid

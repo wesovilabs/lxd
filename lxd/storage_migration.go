@@ -5,10 +5,10 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/lxd/types"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/idmap"
+	"github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/lxd/types"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/idmap"
 )
 
 // MigrationStorageSourceDriver defines the functions needed to implement a

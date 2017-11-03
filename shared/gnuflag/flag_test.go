@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/lxc/lxd/shared/gnuflag"
+	. "github.com/wesovilabs/lxd/shared/gnuflag"
 )
 
 var (

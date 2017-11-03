@@ -12,13 +12,13 @@ import (
 
 	"gopkg.in/macaroon-bakery.v2/httpbakery/form"
 
-	"github.com/lxc/lxd/lxc/config"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/gnuflag"
-	"github.com/lxc/lxd/shared/i18n"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/logging"
-	"github.com/lxc/lxd/shared/version"
+	"github.com/wesovilabs/lxd/lxc/config"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/gnuflag"
+	"github.com/wesovilabs/lxd/shared/i18n"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logging"
+	"github.com/wesovilabs/lxd/shared/version"
 
 	schemaform "gopkg.in/juju/environschema.v1/form"
 )

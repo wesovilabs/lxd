@@ -3,7 +3,7 @@ package util
 import (
 	"fmt"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 // LoadModule loads the kernel module with the given name, by invoking

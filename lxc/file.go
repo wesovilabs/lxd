@@ -12,13 +12,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/lxc/config"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/gnuflag"
-	"github.com/lxc/lxd/shared/i18n"
-	"github.com/lxc/lxd/shared/logger"
-	"github.com/lxc/lxd/shared/termios"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/lxc/config"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/gnuflag"
+	"github.com/wesovilabs/lxd/shared/i18n"
+	"github.com/wesovilabs/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/termios"
 )
 
 type fileCmd struct {

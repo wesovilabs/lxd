@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lxc/lxd/lxd/db/query"
+	"github.com/wesovilabs/lxd/lxd/db/query"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/assert"
 )

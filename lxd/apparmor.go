@@ -9,8 +9,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 
 	log "gopkg.in/inconshreveable/log15.v2"
 )

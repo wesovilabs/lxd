@@ -1,8 +1,8 @@
 package benchmark
 
 import (
-	"github.com/lxc/lxd/client"
-	"github.com/lxc/lxd/shared/api"
+	"github.com/wesovilabs/lxd/client"
+	"github.com/wesovilabs/lxd/shared/api"
 )
 
 func createContainer(c lxd.ContainerServer, fingerprint string, name string, privileged bool) error {

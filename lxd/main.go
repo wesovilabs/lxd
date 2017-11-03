@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/lxc/lxd/shared/cmd"
+	"github.com/wesovilabs/lxd/shared/cmd"
 )
 
 // Global variables

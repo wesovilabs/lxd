@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/lxc/lxd/lxd/db/query"
+	"github.com/wesovilabs/lxd/lxd/db/query"
 )
 
 // Return whether the schema table is present in the database.

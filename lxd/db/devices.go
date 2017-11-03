@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/lxc/lxd/lxd/types"
+	"github.com/wesovilabs/lxd/lxd/types"
 )
 
 func dbDeviceTypeToString(t int) (string, error) {

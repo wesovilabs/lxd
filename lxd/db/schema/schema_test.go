@@ -8,8 +8,8 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lxc/lxd/lxd/db/query"
-	"github.com/lxc/lxd/lxd/db/schema"
+	"github.com/wesovilabs/lxd/lxd/db/query"
+	"github.com/wesovilabs/lxd/lxd/db/schema"
 )
 
 // Create a new Schema by specifying an explicit map from versions to Update

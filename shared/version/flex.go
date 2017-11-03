@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/shared/osarch"
 )
 
 // Version contains the LXD version number

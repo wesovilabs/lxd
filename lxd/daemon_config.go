@@ -14,9 +14,9 @@ import (
 	"golang.org/x/crypto/scrypt"
 	log "gopkg.in/inconshreveable/log15.v2"
 
-	dbapi "github.com/lxc/lxd/lxd/db"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	dbapi "github.com/wesovilabs/lxd/lxd/db"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 var daemonConfigLock sync.Mutex

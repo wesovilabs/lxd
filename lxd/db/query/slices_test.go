@@ -7,8 +7,8 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lxc/lxd/lxd/db/query"
-	"github.com/lxc/lxd/shared/subtest"
+	"github.com/wesovilabs/lxd/lxd/db/query"
+	"github.com/wesovilabs/lxd/shared/subtest"
 )
 
 // Exercise possible failure modes.

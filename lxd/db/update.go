@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lxc/lxd/lxd/db/schema"
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/lxd/db/schema"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 /* Database updates are one-time actions that are needed to move an

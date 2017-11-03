@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/mattn/go-colorable"
 
-	"github.com/lxc/lxd/shared/logger"
+	"github.com/wesovilabs/lxd/shared/logger"
 )
 
 // Windows doesn't process ANSI sequences natively, so we wrap

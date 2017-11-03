@@ -5,8 +5,8 @@ package version
 import (
 	"strings"
 
-	"github.com/lxc/lxd/shared"
-	"github.com/lxc/lxd/shared/osarch"
+	"github.com/wesovilabs/lxd/shared"
+	"github.com/wesovilabs/lxd/shared/osarch"
 )
 
 func getPlatformVersionStrings() []string {

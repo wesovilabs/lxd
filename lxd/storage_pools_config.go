@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/lxc/lxd/shared"
+	"github.com/wesovilabs/lxd/shared"
 )
 
 func updateStoragePoolError(unchangeable []string, driverName string) error {
